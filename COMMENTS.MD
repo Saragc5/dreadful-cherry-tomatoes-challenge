@@ -1,6 +1,6 @@
 ## Dreadful Cherry Tomatoes
 
-### My solution to the challenge provided by Rviewer:
+### My solution to the challenge provided by Rviewer:.
 
 It is done with ReactJS, TypeScript and CSS modules.
 
