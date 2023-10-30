@@ -1,0 +1,49 @@
+.inputContainer {
+  position: relative;
+  background-color: #c42521;
+  width: 110%;
+  height: 5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.inputContainer .icon{
+  padding-left: 2.9rem;
+  font-size: 24px;
+  position: absolute;
+  top: 53%;
+  left: 7%;  
+  transform: translateY(-50%);
+
+}
+
+.inputContainer .input{
+  width:80%;
+  height: 55%;
+  border-radius: 6px;   
+  text-indent: 45px;
+  font-size: 16px;        
+  background-color: white;
+  border:3px solid #c42521;
+  place-self: center;   
+}
+
+.input::placeholder{
+  color:rgb(112, 108, 108);
+}
+
+@media screen and (width <= 935px) {
+  .inputContainer .icon {
+    padding-left: 2.4rem;
+  }
+}
+@media screen and (width <= 600px) {
+  .inputContainer .icon {
+    padding-left: 1.8rem;
+  }
+}

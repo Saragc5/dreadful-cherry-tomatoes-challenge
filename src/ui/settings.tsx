@@ -1,0 +1,1 @@
+export const SEARCH_URL:string = "https://static.rviewer.io/challenges/datasets/dreadful-cherry-tomatoes/data.json"; 

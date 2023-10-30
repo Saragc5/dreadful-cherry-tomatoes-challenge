@@ -1,0 +1,117 @@
+.containerButtonsPage {
+ 
+  display: flex;
+  justify-content: center;
+  align-items:center;  
+  justify-content: center;
+  place-self: center;
+  background-color: #bad1d400;
+}
+
+.containerButtonsPage .buttonPageContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  gap:0.6rem;
+  width: 10rem;
+  padding: 0.5rem;
+
+}
+
+.containerButtonsPage .buttonPageContainer .buttonPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  border-radius: 50%;
+  color: white;
+  font-weight: bolder;    
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(186, 209, 212, 0);
+  background-color: rgba(255,0,0,0.6);
+  padding-top: 0.6rem;
+  margin-top: 0.3rem;
+
+  
+}
+
+.containerButtonsPage .buttonPageContainer .buttonPage:hover {
+  background-color: rgba(255, 0, 0, 0.46);;
+}
+
+.containerButtonsPage .buttonPrevAndNext {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border:2px solid rgba(0, 0, 0, 0); 
+  position: relative;  
+
+
+  
+}
+.containerButtonsPage .buttonPrevAndNext img{
+  display:block;
+  background-color: rgba(0,0,0, 0);  
+       
+}
+
+
+.containerButtonsPage .buttonPrevAndNext img .iconsArrow{  
+   background-color: rgba(0, 0, 0);       
+  
+}
+
+.containerButtonsPage .active { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;    
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(186, 209, 212, 0);
+    background-color: rgba(255, 0, 0, 0.951);
+    padding-top: 0.6rem;
+    margin-top: 0.3rem;   
+
+}
+
+@media (max-width: 375px){
+  .containerButtonsPage .buttonPageContainer {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 375px){
+  .containerButtonsPage .buttonPageContainer .buttonPage{
+    width: 30px;
+    height: 30px;
+    padding-top: 0.3rem;
+    margin-top: 0.6rem;
+
+  }
+
+}
+@media (max-width: 375px){
+  .containerButtonsPage .buttonPrevAndNext img{
+    width: 20px;
+    height: 20px;     
+  }
+
+}
+
+@media (max-width: 375px){
+  .containerButtonsPage .active {
+    width: 30px;
+    height: 30px;
+    padding-top: 0.3rem;
+    margin-top: 0.6rem;
+
+  }
+
+}

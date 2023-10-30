@@ -1,0 +1,35 @@
+.container{  
+  text-align: start;
+  align-self: baseline;
+  font-style: normal;
+  font-size: 12px;
+  color:rgb(173, 168, 168);
+  background-color: rgba(117, 111, 111, 0.2);
+  background-color: rgba(27, 24, 24, 0.2);
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  height:65%;
+  overflow:hidden;
+  padding:2rem;  
+
+}
+.text{
+  font-size: 18px;
+  text-align: start;
+  
+}
+.textDescription{
+  font-size: 15px;
+  text-align: start;
+ 
+  
+}
+.container:hover{
+  opacity: 3;
+  background-color:rgba(39, 36, 36, 0.8); 
+  background-color: rgba(21, 20, 20, 0.8);
+  margin-left: -3rem;
+
+ 
+}
